@@ -388,6 +388,7 @@ input[type="text" i]{
   }
   .footer > div > img {
     width: 55%;
+    margin-top: 0;
   }
   .footer {
     padding: 2em;
