@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Error from "./components/Error";
 import PTS from "./components/PTS";
 import { Route, Routes } from "react-router-dom";
+import Community from "./components/Community";
 // import Community from "./components/Community";
 // import Nft from "./components/Nft";
 // import Place from "./components/Place";
@@ -34,6 +35,7 @@ function App() {
         <Route path="/Nft" element={<Nft />} />
         <Route path="/Place" element={<Place />} />
         <Route path="/PTS" element={<PTS />} />
+        <Route path="/Community" element={<Community />} />
       </Routes>
       <Footer />
     </>

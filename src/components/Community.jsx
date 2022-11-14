@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Strip from "./Strip";
 
 function Community() {
   return (
-    <div>Community</div>
-  )
+    <div>
+      <h1>Welcome to the Community</h1>
+      <Strip />
+    </div>
+  );
 }
 
-export default Community
+export default Community;
