@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 
 function Place() {
   return (
-  <div>
+  <div className="place">
       <h1>Inspiration for your next adventure</h1>
     <div className="card-holder">
    
