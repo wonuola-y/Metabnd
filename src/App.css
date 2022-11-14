@@ -283,6 +283,7 @@ span {
 }
 input[type="text" i]{
   padding: 1em;
+  border: none;
 }
 .place {
   text-align: center;
