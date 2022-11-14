@@ -74,7 +74,7 @@ a:hover {
 }
 button,
 input[type="submit"] {
-  padding: 0.7em;
+  padding: 1em;
   background-color: rgba(160, 34, 121, 1);
   border: none;
   border-radius: 5px;
@@ -126,7 +126,7 @@ em {
 }
 .footer > div > img {
   margin-top: 1.5em;
-  width: 33%;
+  width: 188px;
 }
 
 ul {
@@ -269,13 +269,24 @@ span {
   margin-bottom: 1em;
 }
 .thumbnails > div {
+  width: 18px;
+  height: 16px;
   border-radius: 1px;
+  
+}
+.input{
+  width: 266px;
+  border: .5px solid black;
+}
+input[type="text" i]{
+  padding: 1em;
 }
 .place {
   text-align: center;
 }
 .card-holder {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
