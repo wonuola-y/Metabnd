@@ -19,7 +19,7 @@ import dkSixteen from "./tools/dk-sixteen.svg";
 import filter from "./tools/filter.svg";
 function Place() {
   return (
-    <div className="card-holder">
+    <div>
       <ul className="places">
         <li>Resturant</li>
         <li>Cottage</li>
@@ -27,182 +27,186 @@ function Place() {
         <li>Fantast city</li>
         <li>Beach</li>
         <li>Off grid</li>
-        <button className="location-filter">Location <img src={filter} alt="filter button" /></button>
+        <button className="location-filter">
+          Location <img src={filter} alt="filter button" />
+        </button>
       </ul>
-      <div className="cards">
-        <img alt="destination-img" src={dkOne} />
-        <div className="cardText">
-          <em>Desert King</em>
-          <em>
-            <b>1MBT per night </b>
-          </em>
-          <em>2345km away</em>
-          <em>available for 2 weeks stay</em>
+      <div className="card-holder">
+        <div className="cards">
+          <img alt="destination-img" src={dkOne} />
+          <div className="cardText">
+            <em>Desert King</em>
+            <em>
+              <b>1MBT per night </b>
+            </em>
+            <em>2345km away</em>
+            <em>available for 2 weeks stay</em>
+          </div>
         </div>
-      </div>
-      <div className="cards">
-        <img alt="destination-img" src={dkTwo} />
-        <div className="cardText">
-          <em>Desert King</em>
-          <em>
-            <b>1MBT per night </b>
-          </em>
-          <em>2345km away</em>
-          <em>available for 2 weeks stay</em>
+        <div className="cards">
+          <img alt="destination-img" src={dkTwo} />
+          <div className="cardText">
+            <em>Desert King</em>
+            <em>
+              <b>1MBT per night </b>
+            </em>
+            <em>2345km away</em>
+            <em>available for 2 weeks stay</em>
+          </div>
         </div>
-      </div>
-      <div className="cards">
-        <img alt="destination-img" src={dkThree} />
-        <div className="cardText">
-          <em>Desert King</em>
-          <em>
-            <b>1MBT per night </b>
-          </em>
-          <em>2345km away</em>
-          <em>available for 2 weeks stay</em>
+        <div className="cards">
+          <img alt="destination-img" src={dkThree} />
+          <div className="cardText">
+            <em>Desert King</em>
+            <em>
+              <b>1MBT per night </b>
+            </em>
+            <em>2345km away</em>
+            <em>available for 2 weeks stay</em>
+          </div>
         </div>
-      </div>
-      <div className="cards">
-        <img alt="destination-img" src={dkFour} />
-        <div className="cardText">
-          <em>Desert King</em>
-          <em>
-            <b>1MBT per night </b>
-          </em>
-          <em>2345km away</em>
-          <em>available for 2 weeks stay</em>
+        <div className="cards">
+          <img alt="destination-img" src={dkFour} />
+          <div className="cardText">
+            <em>Desert King</em>
+            <em>
+              <b>1MBT per night </b>
+            </em>
+            <em>2345km away</em>
+            <em>available for 2 weeks stay</em>
+          </div>
         </div>
-      </div>
-      <div className="cards">
-        <img alt="destination-img" src={dkFive} />
-        <div className="cardText">
-          <em>Desert King</em>
-          <em>
-            <b>1MBT per night </b>
-          </em>
-          <em>2345km away</em>
-          <em>available for 2 weeks stay</em>
+        <div className="cards">
+          <img alt="destination-img" src={dkFive} />
+          <div className="cardText">
+            <em>Desert King</em>
+            <em>
+              <b>1MBT per night </b>
+            </em>
+            <em>2345km away</em>
+            <em>available for 2 weeks stay</em>
+          </div>
         </div>
-      </div>
-      <div className="cards">
-        <img alt="destination-img" src={dkSix} />
-        <div className="cardText">
-          <em>Desert King</em>
-          <em>
-            <b>1MBT per night </b>
-          </em>
-          <em>2345km away</em>
-          <em>available for 2 weeks stay</em>
+        <div className="cards">
+          <img alt="destination-img" src={dkSix} />
+          <div className="cardText">
+            <em>Desert King</em>
+            <em>
+              <b>1MBT per night </b>
+            </em>
+            <em>2345km away</em>
+            <em>available for 2 weeks stay</em>
+          </div>
         </div>
-      </div>
-      <div className="cards">
-        <img alt="destination-img" src={dkSeven} />
-        <div className="cardText">
-          <em>Desert King</em>
-          <em>
-            <b>1MBT per night </b>
-          </em>
-          <em>2345km away</em>
-          <em>available for 2 weeks stay</em>
+        <div className="cards">
+          <img alt="destination-img" src={dkSeven} />
+          <div className="cardText">
+            <em>Desert King</em>
+            <em>
+              <b>1MBT per night </b>
+            </em>
+            <em>2345km away</em>
+            <em>available for 2 weeks stay</em>
+          </div>
         </div>
-      </div>
-      <div className="cards">
-        <img alt="destination-img" src={dkEight} />
-        <div className="cardText">
-          <em>Desert King</em>
-          <em>
-            <b>1MBT per night </b>
-          </em>
-          <em>2345km away</em>
-          <em>available for 2 weeks stay</em>
+        <div className="cards">
+          <img alt="destination-img" src={dkEight} />
+          <div className="cardText">
+            <em>Desert King</em>
+            <em>
+              <b>1MBT per night </b>
+            </em>
+            <em>2345km away</em>
+            <em>available for 2 weeks stay</em>
+          </div>
         </div>
-      </div>
-      <div className="cards">
-        <img alt="destination-img" src={dkNine} />
-        <div className="cardText">
-          <em>Desert King</em>
-          <em>
-            <b>1MBT per night </b>
-          </em>
-          <em>2345km away</em>
-          <em>available for 2 weeks stay</em>
+        <div className="cards">
+          <img alt="destination-img" src={dkNine} />
+          <div className="cardText">
+            <em>Desert King</em>
+            <em>
+              <b>1MBT per night </b>
+            </em>
+            <em>2345km away</em>
+            <em>available for 2 weeks stay</em>
+          </div>
         </div>
-      </div>
-      <div className="cards">
-        <img alt="destination-img" src={dkTen} />
-        <div className="cardText">
-          <em>Desert King</em>
-          <em>
-            <b>1MBT per night </b>
-          </em>
-          <em>2345km away</em>
-          <em>available for 2 weeks stay</em>
-        </div>
-      </div>{" "}
-      <div className="cards">
-        <img alt="destination-img" src={dkEleven} />
-        <div className="cardText">
-          <em>Desert King</em>
-          <em>
-            <b>1MBT per night </b>
-          </em>
-          <em>2345km away</em>
-          <em>available for 2 weeks stay</em>
-        </div>
-      </div>{" "}
-      <div className="cards">
-        <img alt="destination-img" src={dkTwelve} />
-        <div className="cardText">
-          <em>Desert King</em>
-          <em>
-            <b>1MBT per night </b>
-          </em>
-          <em>2345km away</em>
-          <em>available for 2 weeks stay</em>
-        </div>
-      </div>{" "}
-      <div className="cards">
-        <img alt="destination-img" src={dkThirteen} />
-        <div className="cardText">
-          <em>Desert King</em>
-          <em>
-            <b>1MBT per night </b>
-          </em>
-          <em>2345km away</em>
-          <em>available for 2 weeks stay</em>
-        </div>
-      </div>{" "}
-      <div className="cards">
-        <img alt="destination-img" src={dkFourteen} />
-        <div className="cardText">
-          <em>Desert King</em>
-          <em>
-            <b>1MBT per night </b>
-          </em>
-          <em>2345km away</em>
-          <em>available for 2 weeks stay</em>
-        </div>
-      </div>{" "}
-      <div className="cards">
-        <img alt="destination-img" src={dkFifteen} />
-        <div className="cardText">
-          <em>Desert King</em>
-          <em>
-            <b>1MBT per night </b>
-          </em>
-          <em>2345km away</em>
-          <em>available for 2 weeks stay</em>
-        </div>
-      </div>{" "}
-      <div className="cards">
-        <img alt="destination-img" src={dkSixteen} />
-        <div className="cardText">
-          <em>Desert King</em>
-          <em>
-            <b>1MBT per night </b>
-          </em>
-          <em>2345km away</em>
-          <em>available for 2 weeks stay</em>
+        <div className="cards">
+          <img alt="destination-img" src={dkTen} />
+          <div className="cardText">
+            <em>Desert King</em>
+            <em>
+              <b>1MBT per night </b>
+            </em>
+            <em>2345km away</em>
+            <em>available for 2 weeks stay</em>
+          </div>
+        </div>{" "}
+        <div className="cards">
+          <img alt="destination-img" src={dkEleven} />
+          <div className="cardText">
+            <em>Desert King</em>
+            <em>
+              <b>1MBT per night </b>
+            </em>
+            <em>2345km away</em>
+            <em>available for 2 weeks stay</em>
+          </div>
+        </div>{" "}
+        <div className="cards">
+          <img alt="destination-img" src={dkTwelve} />
+          <div className="cardText">
+            <em>Desert King</em>
+            <em>
+              <b>1MBT per night </b>
+            </em>
+            <em>2345km away</em>
+            <em>available for 2 weeks stay</em>
+          </div>
+        </div>{" "}
+        <div className="cards">
+          <img alt="destination-img" src={dkThirteen} />
+          <div className="cardText">
+            <em>Desert King</em>
+            <em>
+              <b>1MBT per night </b>
+            </em>
+            <em>2345km away</em>
+            <em>available for 2 weeks stay</em>
+          </div>
+        </div>{" "}
+        <div className="cards">
+          <img alt="destination-img" src={dkFourteen} />
+          <div className="cardText">
+            <em>Desert King</em>
+            <em>
+              <b>1MBT per night </b>
+            </em>
+            <em>2345km away</em>
+            <em>available for 2 weeks stay</em>
+          </div>
+        </div>{" "}
+        <div className="cards">
+          <img alt="destination-img" src={dkFifteen} />
+          <div className="cardText">
+            <em>Desert King</em>
+            <em>
+              <b>1MBT per night </b>
+            </em>
+            <em>2345km away</em>
+            <em>available for 2 weeks stay</em>
+          </div>
+        </div>{" "}
+        <div className="cards">
+          <img alt="destination-img" src={dkSixteen} />
+          <div className="cardText">
+            <em>Desert King</em>
+            <em>
+              <b>1MBT per night </b>
+            </em>
+            <em>2345km away</em>
+            <em>available for 2 weeks stay</em>
+          </div>
         </div>
       </div>
     </div>

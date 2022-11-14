@@ -9,18 +9,14 @@ import Error from "./components/Error";
 import PTS from "./components/PTS";
 import { Route, Routes } from "react-router-dom";
 import Community from "./components/Community";
-// import Community from "./components/Community";
-// import Nft from "./components/Nft";
-// import Place from "./components/Place";
 
 function Home() {
   return (
     <>
-
       <Hero />
       <Strip />
       <Place />
-
+      <Nft />
     </>
   );
 }

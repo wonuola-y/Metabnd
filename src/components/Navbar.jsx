@@ -8,20 +8,29 @@ function Navbar() {
   return (
     <div className="nav">
       <nav>
-       <Link to="/" className="home"> <img src={logo} alt="logo" className="logo" /></Link>
+        <Link to="/" className="home">
+          {" "}
+          <img src={logo} alt="logo" className="logo" />
+        </Link>
         <div className="menu">
           <img
-            src="https://cdn-icons-png.flaticon.com/512/5259/5259008.png" re
+            src="https://cdn-icons-png.flaticon.com/512/5259/5259008.png"
+            re
             alt="menu icon"
             className={list ? "nav-list" : "display"}
             onClick={() => {
               setList(!list);
             }}
-          
           />
-          <img src="https://cdn-icons-png.flaticon.com/128/657/657059.png"  rel="preconnect" alt="cancel button" className={list ? "display" : "nav-list"} onClick={()=>{
-             setList(!list);
-          }}/>
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/657/657059.png"
+            rel="preconnect"
+            alt="cancel button"
+            className={list ? "display" : "nav-list"}
+            onClick={() => {
+              setList(!list);
+            }}
+          />
         </div>
       </nav>
       <ul className={list ? "nav-list view" : "nav-list"}>
