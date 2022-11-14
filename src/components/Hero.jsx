@@ -3,7 +3,7 @@ import HeroImg from "./tools/Group.svg";
 function Hero() {
   return (
     <div className="hero">
-      <div>
+      <div className="text">
         <h1>
           Rent a <span>Place</span> away from <span>Home</span> in the{" "}
           <span>Metaverse</span>
@@ -14,8 +14,12 @@ function Hero() {
           comfort zone
         </p>
 
-        <div className="input">
-          <input type="text" /> <input type="submit" value="Search" />
+        <div className="form">
+          <label htmlFor="Text"></label>
+          <div className="input">
+            <input type="text" placeholder="Search for a location" />{" "}
+            <input type="submit" value="Search" />
+          </div>
         </div>
       </div>
       <div>

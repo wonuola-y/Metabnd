@@ -6,12 +6,12 @@ function Navbar() {
   const [list, setList] = useState(false);
   const [show, setShow] = useState(false);
   return (
-    <div>
+    <div className="nav">
       <nav>
        <Link to="/" className="home"> <img src={logo} alt="logo" className="logo" /></Link>
         <div className="menu">
           <img
-            src="https://cdn-icons-png.flaticon.com/512/5259/5259008.png"
+            src="https://cdn-icons-png.flaticon.com/512/5259/5259008.png" re
             alt="menu icon"
             className={list ? "nav-list" : "display"}
             onClick={() => {
