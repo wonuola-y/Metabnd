@@ -19,7 +19,7 @@ function Navbar() {
             }}
           
           />
-          <img src="https://cdn-icons-png.flaticon.com/128/657/657059.png"  alt="cancel button" className={list ? "display" : "nav-list"} onClick={()=>{
+          <img src="https://cdn-icons-png.flaticon.com/128/657/657059.png"  rel="preconnect" alt="cancel button" className={list ? "display" : "nav-list"} onClick={()=>{
              setList(!list);
           }}/>
         </div>
