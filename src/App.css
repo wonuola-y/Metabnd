@@ -120,11 +120,10 @@ em {
   text-align: center;
 }
 .footer > div > img {
+  margin-top: 1.5em;
   width: 55%;
 }
-.footer:first-child {
-  margin-top: 1.5em;
-}
+
 ul {
   padding: 0 !important;
 }
@@ -202,6 +201,16 @@ a{
 span{
   color: rgba(160, 34, 121, 1);
 }
+.thumbnail{
+  position: relative;
+  width: 100%;
+  border-radius: 12px;
+  height: 200px;
+}
+.thumbnail > div{
+  border-radius: 12px;
+  margin-bottom: 1em;
+}
 @media screen and (min-width: 750px){
 .nav-list{
   display: block;
@@ -219,7 +228,7 @@ nav{
 }
 .nav > ul{
   display: flex;
-  width:60% ;
+  width:55% ;
   justify-content: space-between;
 }
 .hero{
@@ -257,5 +266,20 @@ nav{
   padding: .7em;
  border: none;
  width: 45%;
+}
+.cards{
+  width: 250px;
+}
+.card-holder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer > div > img {
+
+  width: 21%;
+}
+.footer{
+  display: flex;
 }
 }

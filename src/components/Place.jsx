@@ -18,8 +18,7 @@ function Place() {
     <div className="card-holder">
    
       <div className="cards">
-        <PreloadImage   style={{
-    position: 'relative'}} alt="destination-PreloadImage" src={dkOne} />
+        <PreloadImage   className="thumbnail"alt="destination-PreloadImage" src={dkOne} />
         <div className="cardText">
           <em>Desert King</em>
           <em>
@@ -30,8 +29,7 @@ function Place() {
         </div>
       </div>
       <div className="cards">
-        <PreloadImage   style={{
-    position: 'relative'}} alt="destination-PreloadImage" src={dkTwo} />
+        <PreloadImage   className="thumbnail"alt="destination-PreloadImage" src={dkTwo} />
         <div className="cardText">
           <em>Desert King</em>
           <em>
@@ -42,8 +40,7 @@ function Place() {
         </div>
       </div>
       <div className="cards">
-        <PreloadImage   style={{
-    position: 'relative'}} alt="destination-PreloadImage" src={dkThree} />
+        <PreloadImage   className="thumbnail"alt="destination-PreloadImage" src={dkThree} />
         <div className="cardText">
           <em>Desert King</em>
           <em>
@@ -54,8 +51,7 @@ function Place() {
         </div>
       </div>
       <div className="cards">
-        <PreloadImage   style={{
-    position: 'relative'}} alt="destination-PreloadImage" src={dkFour} lazy/>
+        <PreloadImage   className="thumbnail"alt="destination-PreloadImage" src={dkFour} lazy/>
         <div className="cardText">
           <em>Desert King</em>
           <em>
@@ -66,8 +62,7 @@ function Place() {
         </div>
       </div>
       <div className="cards">
-        <PreloadImage   style={{
-    position: 'relative'}} alt="destination-PreloadImage" src={dkFive} lazy/>
+        <PreloadImage   className="thumbnail"alt="destination-PreloadImage" src={dkFive} lazy/>
         <div className="cardText">
           <em>Desert King</em>
           <em>
@@ -78,8 +73,7 @@ function Place() {
         </div>
       </div>
       <div className="cards">
-        <PreloadImage   style={{
-    position: 'relative'}} alt="destination-PreloadImage" src={dkSix} lazy/>
+        <PreloadImage   className="thumbnail"alt="destination-PreloadImage" src={dkSix} lazy/>
         <div className="cardText">
           <em>Desert King</em>
           <em>
@@ -90,8 +84,7 @@ function Place() {
         </div>
       </div>
       <div className="cards">
-        <PreloadImage  style={{
-    position: 'relative'}} alt="destination-PreloadImage" src={dkSeven} lazy/>
+        <PreloadImage  className="thumbnail"alt="destination-PreloadImage" src={dkSeven} lazy/>
         <div className="cardText">
           <em>Desert King</em>
           <em>
@@ -102,8 +95,7 @@ function Place() {
         </div>
       </div>
       <div className="cards">
-        <PreloadImage   style={{
-    position: 'relative'}} alt="destination-PreloadImage" src={dkEight} lazy/>
+        <PreloadImage   className="thumbnail"alt="destination-PreloadImage" src={dkEight} lazy/>
         <div className="cardText">
           <em>Desert King</em>
           <em>
