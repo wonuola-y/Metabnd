@@ -249,7 +249,22 @@ a:hover {
 span {
   color: rgba(160, 34, 121, 1);
 }
-.thumbnail,
+.thumbnail-list, .copy{
+  display: none;
+}
+.place {
+  text-align: center;
+}
+.card-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 750px) {
+  .nav-list {
+    display: block;
+  }
+  .thumbnail,
 .thumbnails {
   position: relative;
   width: 100%;
@@ -264,18 +279,6 @@ span {
 .thumbnails > div {
   border-radius: 1px;
 }
-.place {
-  text-align: center;
-}
-.card-holder {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-@media screen and (min-width: 750px) {
-  .nav-list {
-    display: block;
-  }
   .menu {
     display: none;
   }
