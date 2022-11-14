@@ -133,6 +133,7 @@ ul {
 }
 .footer > div > ul > li {
   color: white;
+  font-size: 14px;
 }
 .places{
   display: flex;
@@ -255,7 +256,8 @@ nav{
   width: 45%;
   margin: .5em 3em;
 }
-.text{
+.text, .nft > div{
+  text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -291,7 +293,17 @@ nav{
   display: flex;
   flex-wrap: wrap;
 }
+.nft{
+  display: flex;
+  flex-direction: row;
+}
 
+.nft > div > p{
+  max-width: 500px;
+}
+.nft > div > h1{
+  width: 100%;
+}
 .footer > div > img {
 
   width:55%;
@@ -311,7 +323,7 @@ padding: 1em;
 
 h6{
   margin: 0;
-  font-size: 1em;
+  font-size: 18px;
 }
 .copyright{
   width: 20px;
@@ -321,6 +333,7 @@ margin: 2em;
   display: flex;
   
 }
+
 
 
 }
