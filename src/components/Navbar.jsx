@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import logo from "./tools/logo.svg";
 import { Link } from "react-router-dom";
-
+import MM from './tools/MetaMaskIcon.svg'
+import wc from './tools/wc.svg'
 function Navbar() {
   const [list, setList] = useState(false);
   const [show, setShow] = useState(false);
@@ -53,30 +54,37 @@ function Navbar() {
         >
           Connect wallet
         </button>
-        <div className={show ? "overall view" : "close"}>
-          {" "}
-          <div className="connect">
-            <div className="row-one">
-              <h3>Connect wallet</h3>
-              <em
-                onClick={() => {
-                  setShow(!show);
-                }}
-                className="clear"
-              >
-                x
-              </em>
+        <div  className={show ? "overall view overall-container" : "close"}>
+          <div className="overall">
+            {" "}
+            <div className="connect">
+              <div className="row-one">
+                <h3>Connect wallet</h3>
+                <em
+                  onClick={() => {
+                    setShow(!show);
+                  }}
+                  className="clear"
+                >
+                  x
+                </em>
+              </div>
             </div>
             <hr />
             <p>Choose your preferred wallet</p>
             <div className="collections">
               <button className="wallet">
                 {" "}
-                Metamask <span>&gt;</span>
+               <div> <img src={MM} alt="" />
+                <em>Metamask</em> </div>
+               <span>&gt;</span>
               </button>
               <button className="wallet">
                 {" "}
-                Wallet Connect <span>&gt;</span>
+                
+                <div>
+                <img src={wc} alt="" />
+                <em>Wallet Connect</em></div> <span>&gt;</span>
               </button>
             </div>
           </div>
