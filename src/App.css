@@ -30,7 +30,7 @@ img {
   width: 100%;
 }
 .logo {
-  width: 30%;
+  width: 50%;
 }
 .menu {
   width: 25px;
@@ -184,4 +184,15 @@ background-color: gray;
 }
 .location-filter > img{
   width: 20px;
+}
+a{
+  color: Black !important;
+  margin:.5em 0;
+  text-decoration: none !important;
+  border-bottom: 2px solid rgba(160, 34, 121, 1);
+}
+.home{
+  border: none;
+  margin: 0;
+  text-decoration: none !important;
 }

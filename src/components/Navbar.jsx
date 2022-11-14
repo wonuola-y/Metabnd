@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <div>
       <nav>
-        <img src={logo} alt="logo" className="logo" />
+       <Link to="/" className="home"> <img src={logo} alt="logo" className="logo" /></Link>
         <div className="menu">
           <img
             src="https://cdn-icons-png.flaticon.com/512/5259/5259008.png"
