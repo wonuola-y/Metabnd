@@ -126,7 +126,7 @@ em {
 }
 .footer > div > img {
   margin-top: 1.5em;
-  width: 55%;
+  width: 33%;
 }
 
 ul {
@@ -249,8 +249,27 @@ a:hover {
 span {
   color: rgba(160, 34, 121, 1);
 }
-.thumbnails, .copy{
-  display: none;
+.thumbnail,
+.thumbnails {
+  position: relative;
+  width: 100%;
+  border-radius: 12px;
+  height: 200px;
+}
+.thumbnails{
+  margin: 1em;
+}
+.thumbnail-list{
+  display:flex;
+  justify-content: center;
+  margin: 1em;
+}
+.thumbnail > div {
+  border-radius: 12px;
+  margin-bottom: 1em;
+}
+.thumbnails > div {
+  border-radius: 1px;
 }
 .place {
   text-align: center;
@@ -260,25 +279,15 @@ span {
   justify-content: center;
   align-items: center;
 }
+.copy{
+  display: none;
+
+}
+
 @media screen and (min-width: 750px) {
   .nav-list {
     display: block;
   }
-  .thumbnail,
-.thumbnails {
-  position: relative;
-  width: 100%;
-  border-radius: 12px;
-  height: 200px;
-}
-
-.thumbnail > div {
-  border-radius: 12px;
-  margin-bottom: 1em;
-}
-.thumbnails > div {
-  border-radius: 1px;
-}
   .menu {
     display: none;
   }
