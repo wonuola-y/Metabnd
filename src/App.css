@@ -113,10 +113,13 @@ em {
   background-color: white;
   color: rgba(160, 34, 121, 1);
 }
+.footer-container{
+  background-color: black;
+}
 .footer {
   display: flex;
   flex-direction: column;
-  background-color: black;
+ 
   color: white;
 }
 .footer > div {
@@ -309,6 +312,7 @@ nav{
   width:55%;
 }
 .footer{
+  padding: 2em;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -320,7 +324,9 @@ justify-content: space-around;
 margin: 1em;
 padding: 1em;
 }
-
+.footer-logo{
+  margin-bottom: 2em;
+}
 h6{
   margin: 0;
   font-size: 18px;
@@ -329,9 +335,10 @@ h6{
   width: 20px;
 }
 .copy{
-margin: 2em;
+  width: 50%;
+  margin: 2em;
   display: flex;
-  
+  justify-content: space-between;
 }
 
 

@@ -7,9 +7,10 @@ import instagram from "./tools/instagram.svg";
 import copyright from './tools/copyright.svg'
 function Footer() {
   return (
-    <div className="footer">
+ <div className="footer-container">
+     <div className="footer">
       <div>
-        <img src={logo} alt="logo dark img" />
+        <img src={logo} alt="logo dark img" className="footer-logo"/>
         <div className="thumbnail-list">
           <PreloadImage style={{width: '33px', height: '31px'}} className="thumbnails"
             src={facebook}
@@ -58,6 +59,7 @@ function Footer() {
         </ul>
       </div>
     </div>
+ </div>
   );
 }
 
