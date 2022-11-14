@@ -9,6 +9,7 @@ import dkSix from "./tools/dk-six.svg";
 import dkSeven from "./tools/dk-seven.svg";
 import dkEight from "./tools/dk-eight.svg";
 import { Link } from "react-router-dom";
+import stars from "./tools/stars.svg";
 
 function Place() {
   return (
@@ -28,6 +29,7 @@ function Place() {
             </em>
             <em>2345km away</em>
             <em>available for 2 weeks stay</em>
+            <img src={stars} alt="stars icon" />
           </div>
         </div>
         <div className="cards">
@@ -43,6 +45,7 @@ function Place() {
             </em>
             <em>2345km away</em>
             <em>available for 2 weeks stay</em>
+            <img src={stars} alt="stars icon" />
           </div>
         </div>
         <div className="cards">
@@ -58,6 +61,7 @@ function Place() {
             </em>
             <em>2345km away</em>
             <em>available for 2 weeks stay</em>
+            <img src={stars} alt="stars icon" />
           </div>
         </div>
         <div className="cards">
@@ -74,6 +78,7 @@ function Place() {
             </em>
             <em>2345km away</em>
             <em>available for 2 weeks stay</em>
+            <img src={stars} alt="stars icon" />
           </div>
         </div>
         <div className="cards">
@@ -90,6 +95,7 @@ function Place() {
             </em>
             <em>2345km away</em>
             <em>available for 2 weeks stay</em>
+            <img src={stars} alt="stars icon" />
           </div>
         </div>
         <div className="cards">
@@ -106,6 +112,7 @@ function Place() {
             </em>
             <em>2345km away</em>
             <em>available for 2 weeks stay</em>
+            <img src={stars} alt="stars icon" />
           </div>
         </div>
         <div className="cards">
@@ -122,6 +129,7 @@ function Place() {
             </em>
             <em>2345km away</em>
             <em>available for 2 weeks stay</em>
+            <img src={stars} alt="stars icon" />
           </div>
         </div>
         <div className="cards">
@@ -138,15 +146,11 @@ function Place() {
             </em>
             <em>2345km away</em>
             <em>available for 2 weeks stay</em>
+            <img src={stars} alt="stars icon" />
           </div>
         </div>
       </div>
-      <button style={{ margin: "1em" }}>
-        {" "}
-        <Link style={{ color: "white", margin: "1em" }} to="/PTS">
-          See more
-        </Link>{" "}
-      </button>
+     
     </div>
   );
 }

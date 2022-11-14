@@ -17,6 +17,7 @@ import dkFourteen from "./tools/dk-fourteen.svg";
 import dkFifteen from "./tools/dk-fifteen.svg";
 import dkSixteen from "./tools/dk-sixteen.svg";
 import filter from "./tools/filter.svg";
+import stars from "./tools/stars.svg";
 function Place() {
   return (
     <div>
@@ -41,6 +42,7 @@ function Place() {
             </em>
             <em>2345km away</em>
             <em>available for 2 weeks stay</em>
+            <img src={stars} alt="stars icon" />
           </div>
         </div>
         <div className="cards">
@@ -52,6 +54,7 @@ function Place() {
             </em>
             <em>2345km away</em>
             <em>available for 2 weeks stay</em>
+            <img src={stars} alt="stars icon" />
           </div>
         </div>
         <div className="cards">
@@ -63,6 +66,7 @@ function Place() {
             </em>
             <em>2345km away</em>
             <em>available for 2 weeks stay</em>
+            <img src={stars} alt="stars icon" />
           </div>
         </div>
         <div className="cards">
@@ -74,6 +78,7 @@ function Place() {
             </em>
             <em>2345km away</em>
             <em>available for 2 weeks stay</em>
+            <img src={stars} alt="stars icon" />
           </div>
         </div>
         <div className="cards">
@@ -85,6 +90,7 @@ function Place() {
             </em>
             <em>2345km away</em>
             <em>available for 2 weeks stay</em>
+            <img src={stars} alt="stars icon" />
           </div>
         </div>
         <div className="cards">
@@ -96,6 +102,7 @@ function Place() {
             </em>
             <em>2345km away</em>
             <em>available for 2 weeks stay</em>
+            <img src={stars} alt="stars icon" />
           </div>
         </div>
         <div className="cards">
@@ -129,6 +136,7 @@ function Place() {
             </em>
             <em>2345km away</em>
             <em>available for 2 weeks stay</em>
+
           </div>
         </div>
         <div className="cards">

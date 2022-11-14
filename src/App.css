@@ -15,6 +15,7 @@ nav,
 }
 .strip {
   background-color: rgba(160, 34, 121, 1);
+  margin: 2em 0;
 }
 .strip > li {
   width: 15%;
@@ -36,7 +37,7 @@ img {
   width: 100%;
 }
 .logo {
-  width: 50%;
+  width: 188px;
 }
 .menu {
   width: 25px;
@@ -79,6 +80,7 @@ input[type="submit"] {
   border: none;
   border-radius: 5px;
   color: white;
+ 
 }
 .place > h1{
   width: 93%;
@@ -95,6 +97,7 @@ input[type="submit"] {
 .cardText {
   display: grid;
   gap: 1em;
+  text-align: left;
   grid-template-columns: auto auto;
 }
 em {
@@ -113,6 +116,7 @@ em {
 .nft > div > button {
   background-color: white;
   color: rgba(160, 34, 121, 1);
+  width: 40%;
 }
 .footer-container {
   background-color: black;
@@ -303,7 +307,7 @@ input[type="text" i]{
   .nav-list {
     display: block;
   }
-  .menu {
+  .menu{
     display: none;
   }
   .nav {
@@ -315,7 +319,7 @@ input[type="text" i]{
     width: 40%;
   }
   .nav > ul {
-    display: flex;
+    display: flex !important;
     width: 55%;
     justify-content: space-between;
   }
@@ -333,7 +337,12 @@ input[type="text" i]{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+
+  }
+  .text,
+  .nft > div > img{
+    margin: 3em;
+    width: 80%;
   }
   .form {
     display: flex;
@@ -356,7 +365,7 @@ input[type="text" i]{
     width: 45%;
   }
   .cards {
-    width: 250px;
+    width: 235px;
   }
   .card-holder {
     display: flex;
@@ -365,6 +374,10 @@ input[type="text" i]{
   .nft {
     display: flex;
     flex-direction: row;
+  }
+  .card-holder{
+    width: 100%;
+    
   }
 
   .nft > div > p {
@@ -408,4 +421,5 @@ input[type="text" i]{
 .overall{
   width: 500px ;
 }
+
 }
