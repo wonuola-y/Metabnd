@@ -249,7 +249,7 @@ a:hover {
 span {
   color: rgba(160, 34, 121, 1);
 }
-.thumbnail-list, .copy{
+.thumbnails, .copy{
   display: none;
 }
 .place {
