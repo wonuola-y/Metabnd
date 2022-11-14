@@ -80,6 +80,9 @@ input[type="submit"] {
   border-radius: 5px;
   color: white;
 }
+.place > h1{
+  width: 93%;
+}
 .cards {
   margin: 1em;
   padding: 1em;
