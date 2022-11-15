@@ -8,7 +8,6 @@ import dkFive from "./tools/dk-five.svg";
 import dkSix from "./tools/dk-six.svg";
 import dkSeven from "./tools/dk-seven.svg";
 import dkEight from "./tools/dk-eight.svg";
-import { Link } from "react-router-dom";
 import stars from "./tools/stars.svg";
 
 function Place() {

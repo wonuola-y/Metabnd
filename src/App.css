@@ -35,6 +35,7 @@ nav,
 }
 img {
   width: 100%;
+  
 }
 .logo {
   width: 188px;
@@ -104,7 +105,7 @@ input[type="submit"] {
 em {
   font-style: normal;
 }
-.nft {
+.nft-container {
   background-color: rgba(160, 34, 121, 1);
 }
 .nft > div {
@@ -118,6 +119,9 @@ em {
   background-color: white;
   color: rgba(160, 34, 121, 1);
   width: 40%;
+}
+.nft > div > img{
+  margin: 1.5em 0;
 }
 .footer-container {
   background-color: black;
@@ -283,11 +287,19 @@ span {
 }
 .input{
   width: 266px;
-  border: .5px solid black;
+  display: flex;
+
 }
 input[type="text" i]{
   padding: 1em;
   border: none;
+  border: 1px solid black;
+  border-top-left-radius: 5px;
+border-bottom-left-radius:5px;
+}
+input[type="submit" i]{
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
 }
 .place {
   text-align: center;
@@ -348,21 +360,26 @@ input[type="text" i]{
     width: 45%;
     margin: 0;
   }
+  .nft{
+   display: flex; 
+   flex-direction: row;
+  }
   .text,
   .nft > div {
+    width: 50%;
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
   }
-  .strip-div, .nft, .footer-container{
+  .strip-div, .nft-container, .footer-container{
     width: 100% !important;
   }
   .text,
   .nft > div > img{
     margin: 3em;
-    width: 80%;
+    width: 90%;
   }
   .form {
     display: flex;
@@ -372,7 +389,7 @@ input[type="text" i]{
     width: 100%;
   }
   .input {
-    border: 1px solid black;
+    
     border-radius: 5px;
     width: 80%;
     display: flex;
@@ -381,9 +398,9 @@ input[type="text" i]{
   .input > input {
    
     padding: 0.7em;
-    border: none;
-    width: 45%;
-  }
+   
+    width: 50%;
+  } 
   .cards {
     width: 235px;
   }
@@ -392,7 +409,13 @@ input[type="text" i]{
     flex-wrap: wrap;
   }
   .nft {
+    
+   width: 95%;
+  }
+  .nft-container{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
   }
   .card-holder{
