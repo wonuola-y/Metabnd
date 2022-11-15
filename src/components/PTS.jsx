@@ -21,17 +21,21 @@ import stars from "./tools/stars.svg";
 function Place() {
   return (
     <div>
+      <div className="places-container">
       <ul className="places">
         <li>Resturant</li>
         <li>Cottage</li>
         <li>Castle</li>
-        <li>Fantast city</li>
-        <li>Beach</li>
+        <li>fantast city</li>
+        <li>beach</li>
+        <li>Carbins</li>
         <li>Off grid</li>
+        <li>Farms</li>
         <button className="location-filter">
           Location <img src={filter} alt="filter button" />
         </button>
       </ul>
+      </div>
       <div className="card-holder">
         <div className="cards">
           <img alt="destination-img" src={dkOne} />

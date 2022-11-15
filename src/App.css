@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400&display=swap");
 
-#root {
+#root, button {
   font-family: "Red Rose", sans-serif;
   overflow-x: hidden;
 }
@@ -213,6 +213,7 @@ background: rgb(255, 255, 255);
 .wallet > span{
   color: gray;
  width: 15px;
+ font-size: 2em;
  height: 8px;
 }
 .overall > p{
@@ -411,6 +412,15 @@ border-bottom-left-radius: 0;
   .nft {
     
    width: 95%;
+  }
+  .places-container{
+    display: flex;
+    justify-content: center;
+  }
+  .places{
+    width: 90%;
+    justify-content: space-between;
+
   }
   .nft-container{
     display: flex;
