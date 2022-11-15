@@ -5,7 +5,7 @@ function Community() {
   return (
     <div>
       <h1>Welcome to the Community</h1>
-      <Strip />
+      
     </div>
   );
 }
