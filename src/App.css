@@ -80,7 +80,8 @@ input[type="submit"] {
   border: none;
   border-radius: 5px;
   color: white;
- 
+     border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .place > h1{
   width: 93%;
@@ -180,7 +181,6 @@ background: rgb(255, 255, 255);
   
   }
 .connect {
-   border: 0.5px solid black;
   background-color: #F8F9FA;
   padding: 1em;
   border-top-left-radius:12px;
