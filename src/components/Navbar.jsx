@@ -49,7 +49,13 @@ function Navbar() {
           <li>
             <Link to="/Community">Community</Link>
           </li>
-     
+          <button className="connect-wallet-mobile"
+          onClick={() => {
+            setShow(!show);
+          }}
+        >
+          Connect wallet
+        </button>
         </ul>
        <div>
        <button className="connect-wallet"
