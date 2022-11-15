@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400&display=swap");
 
-#root, button {
+#root,
+button {
   font-family: "Red Rose", sans-serif;
   overflow-x: hidden;
 }
@@ -35,7 +36,6 @@ nav,
 }
 img {
   width: 100%;
-  
 }
 .logo {
   width: 188px;
@@ -81,10 +81,10 @@ input[type="submit"] {
   border: none;
   border-radius: 5px;
   color: white;
-     border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
-.place > h1{
+.place > h1 {
   width: 93%;
 }
 .cards {
@@ -120,7 +120,7 @@ em {
   color: rgba(160, 34, 121, 1);
   width: 40%;
 }
-.nft > div > img{
+.nft > div > img {
   margin: 1.5em 0;
 }
 .footer-container {
@@ -157,70 +157,64 @@ ul {
 }
 
 .overall.view {
-
   display: flex;
-
-  
 }
-.overall{
+.overall {
   border-radius: 10px;
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-background: rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
 }
 .overall-container {
   position: absolute;
   z-index: 2;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(64, 64, 64, 0.3);
-    height: 100vh;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 100% !important;
-    /* width: 100vw; */
-  
-  }
+  height: 100vh;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100% !important;
+  /* width: 100vw; */
+}
 .connect {
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
   padding: 1em;
-  border-top-left-radius:12px;
-  border-top-right-radius:12px ;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 .wallet {
-  background-color: #F8F9FA;;
+  background-color: #f8f9fa;
   color: black;
   border-radius: 5px;
   border: 0.3px solid black;
   margin: 1em;
- display: flex;
- flex-direction: row;
- justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   text-align: left;
-
 }
-.wallet > div{
+.wallet > div {
   display: flex;
   align-items: center;
-
 }
-.wallet > div > img{
+.wallet > div > img {
   width: 50px;
 }
-.wallet > span{
+.wallet > span {
   color: gray;
- width: 15px;
- font-size: 2em;
- height: 8px;
+  width: 15px;
+  font-size: 2em;
+  height: 8px;
 }
-.overall > p{
+.overall > p {
   margin: 1em;
 }
-.wallet > div > em{
-margin: 1em;
+.wallet > div > em {
+  margin: 1em;
 }
 .row-one {
   display: flex;
@@ -230,7 +224,6 @@ margin: 1em;
 .collections {
   display: flex;
   flex-direction: column;
-
 }
 .location-filter {
   border: 1px solid black;
@@ -268,11 +261,11 @@ span {
   border-radius: 12px;
   height: 200px;
 }
-.thumbnails{
+.thumbnails {
   margin: 1em;
 }
-.thumbnail-list{
-  display:flex;
+.thumbnail-list {
+  display: flex;
   justify-content: center;
   margin: 1em;
 }
@@ -284,23 +277,21 @@ span {
   width: 18px;
   height: 16px;
   border-radius: 1px;
-  
 }
-.input{
+.input {
   width: 266px;
   display: flex;
-
 }
-input[type="text" i]{
+input[type="text" i] {
   padding: 1em;
   border: none;
   border: 1px solid black;
   border-top-left-radius: 5px;
-border-bottom-left-radius:5px;
+  border-bottom-left-radius: 5px;
 }
-input[type="submit" i]{
-border-top-left-radius: 0;
-border-bottom-left-radius: 0;
+input[type="submit" i] {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 .place {
   text-align: center;
@@ -311,48 +302,50 @@ border-bottom-left-radius: 0;
   justify-content: center;
   align-items: center;
 }
-.copy, .connect-wallet{
+.copy,
+.connect-wallet {
   display: none;
-
 }
 
 @media screen and (min-width: 750px) {
-#root{
-  display: flex;
-  width: 100%;
-  /* justify-content: center; */
-  align-items: center;
-  flex-direction: column;
-}
-  .nav-list, .connect-wallet {
+  #root {
+    display: flex;
+    width: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+  }
+  .nav-list,
+  .connect-wallet {
     display: block;
   }
-  .menu, .connect-wallet-mobile{
+  .menu,
+  .connect-wallet-mobile {
     display: none;
   }
-  .nav, .hero {
+  .nav,
+  .hero {
     width: 90%;
-   
+
     display: flex;
     align-items: center;
-  
+
     justify-content: space-between;
     padding: 1em;
   }
   nav {
     width: 25%;
   }
-  .nav > div{
+  .nav > div {
     width: 15%;
-    padding: .75em;
+    padding: 0.75em;
   }
   .nav > ul {
-
     display: flex !important;
     width: 40%;
     justify-content: space-between;
   }
-  
+
   .hero {
     display: flex;
     flex-direction: row;
@@ -361,9 +354,9 @@ border-bottom-left-radius: 0;
     width: 45%;
     margin: 0;
   }
-  .nft{
-   display: flex; 
-   flex-direction: row;
+  .nft {
+    display: flex;
+    flex-direction: row;
   }
   .text,
   .nft > div {
@@ -372,13 +365,14 @@ border-bottom-left-radius: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
   }
-  .strip-div, .nft-container, .footer-container{
+  .strip-div,
+  .nft-container,
+  .footer-container {
     width: 100% !important;
   }
   .text,
-  .nft > div > img{
+  .nft > div > img {
     margin: 3em;
     width: 90%;
   }
@@ -390,18 +384,16 @@ border-bottom-left-radius: 0;
     width: 100%;
   }
   .input {
-    
     border-radius: 5px;
     width: 80%;
     display: flex;
     justify-content: space-between;
   }
   .input > input {
-   
     padding: 0.7em;
-   
+
     width: 50%;
-  } 
+  }
   .cards {
     width: 235px;
   }
@@ -410,19 +402,17 @@ border-bottom-left-radius: 0;
     flex-wrap: wrap;
   }
   .nft {
-    
-   width: 95%;
+    width: 95%;
   }
-  .places-container{
+  .places-container {
     display: flex;
     justify-content: center;
   }
-  .places{
+  .places {
     width: 90%;
     justify-content: space-between;
-
   }
-  .nft-container{
+  .nft-container {
     height: 80vh;
     width: 100vw;
     display: flex;
@@ -430,9 +420,8 @@ border-bottom-left-radius: 0;
     justify-content: center;
     flex-direction: row;
   }
-  .card-holder{
+  .card-holder {
     width: 100%;
-    
   }
 
   .nft > div > p {
@@ -456,11 +445,11 @@ border-bottom-left-radius: 0;
   }
   .thumbnail-list {
     display: flex;
-      justify-content: space-between;
-     }
-     .thumbnails{
-      margin: 0;
-     }
+    justify-content: space-between;
+  }
+  .thumbnails {
+    margin: 0;
+  }
   .footer-logo {
     margin-bottom: 2em;
   }
@@ -477,11 +466,11 @@ border-bottom-left-radius: 0;
     display: flex;
     justify-content: space-between;
   }
-.overall{
-  width: 500px ;
-}
-.hero-img{
-  width: 90%;
-  margin-top: 4em;
-}
+  .overall {
+    width: 500px;
+  }
+  .hero-img {
+    width: 90%;
+    margin-top: 4em;
+  }
 }

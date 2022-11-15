@@ -22,19 +22,19 @@ function Place() {
   return (
     <div>
       <div className="places-container">
-      <ul className="places">
-        <li>Resturant</li>
-        <li>Cottage</li>
-        <li>Castle</li>
-        <li>fantast city</li>
-        <li>beach</li>
-        <li>Carbins</li>
-        <li>Off grid</li>
-        <li>Farms</li>
-        <button className="location-filter">
-          Location <img src={filter} alt="filter button" />
-        </button>
-      </ul>
+        <ul className="places">
+          <li>Resturant</li>
+          <li>Cottage</li>
+          <li>Castle</li>
+          <li>fantast city</li>
+          <li>beach</li>
+          <li>Carbins</li>
+          <li>Off grid</li>
+          <li>Farms</li>
+          <button className="location-filter">
+            Location <img src={filter} alt="filter button" />
+          </button>
+        </ul>
       </div>
       <div className="card-holder">
         <div className="cards">
@@ -140,7 +140,6 @@ function Place() {
             </em>
             <em>2345km away</em>
             <em>available for 2 weeks stay</em>
-
           </div>
         </div>
         <div className="cards">

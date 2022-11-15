@@ -149,7 +149,6 @@ function Place() {
           </div>
         </div>
       </div>
-     
     </div>
   );
 }

@@ -42,30 +42,32 @@ function Navbar() {
           <li>
             <Link to="/PTS">Place to stay</Link>
           </li>
-               
+
           <li>
             <Link to="/Nft">NFTs</Link>
           </li>
           <li>
             <Link to="/Community">Community</Link>
           </li>
-          <button className="connect-wallet-mobile"
-          onClick={() => {
-            setShow(!show);
-          }}
-        >
-          Connect wallet
-        </button>
+          <button
+            className="connect-wallet-mobile"
+            onClick={() => {
+              setShow(!show);
+            }}
+          >
+            Connect wallet
+          </button>
         </ul>
-       <div>
-       <button className="connect-wallet"
-          onClick={() => {
-            setShow(!show);
-          }}
-        >
-          Connect wallet
-        </button>
-       </div>
+        <div>
+          <button
+            className="connect-wallet"
+            onClick={() => {
+              setShow(!show);
+            }}
+          >
+            Connect wallet
+          </button>
+        </div>
       </div>
       <div className={show ? "overall view overall-container" : "close"}>
         <div className="overall">
