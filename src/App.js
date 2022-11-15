@@ -8,7 +8,6 @@ import Footer from "./components/Footer";
 import Error from "./components/Error";
 import PTS from "./components/PTS";
 import { Route, Routes } from "react-router-dom";
-import Community from "./components/Community";
 
 function Home() {
   return (
