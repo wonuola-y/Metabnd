@@ -23,7 +23,7 @@ function Hero() {
         </div>
       </div>
       <div>
-        <img src={HeroImg} alt="hero-images" />
+        <img src={HeroImg} alt="hero-images" className="hero-img" />
       </div>
     </div>
   );

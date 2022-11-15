@@ -4,7 +4,7 @@ import Metamask from "./tools/metamask.svg";
 import OpenSea from "./tools/opensea.svg";
 function Strip() {
   return (
-    <div >
+    <div className='strip-div' >
         <ul className='strip'>
         <li><img src={MbToken} alt="" /></li>
         <li><img src={Metamask} alt="" /></li>
