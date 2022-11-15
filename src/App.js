@@ -31,7 +31,6 @@ function App() {
         <Route path="/Nft" element={<Nft />} />
         <Route path="/Place" element={<Place />} />
         <Route path="/PTS" element={<PTS />} />
-        <Route path="/Community" element={<Community />} />
       </Routes>
       <Footer />
     </>

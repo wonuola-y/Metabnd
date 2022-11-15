@@ -46,9 +46,7 @@ function Navbar() {
           <li>
             <Link to="/Nft">NFTs</Link>
           </li>
-          <li>
-            <Link to="/Community">Community</Link>
-          </li>
+          <li>Community</li>
           <button
             className="connect-wallet-mobile"
             onClick={() => {
