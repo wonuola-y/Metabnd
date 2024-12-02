@@ -262,7 +262,7 @@ span {
   height: 200px;
 }
 .thumbnails {
-  margin: 1em;
+  margin: 10px;
 }
 .thumbnail-list {
   display: flex;
